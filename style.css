@@ -11,7 +11,8 @@
   position: relative;
 }
 body {
-  font-family: "Brandon Grotesque";
+  font-family: "Brandon Grotesque", sans-serif, Impact, Haettenschweiler,
+    "Arial Narrow Bold", sans-serif;
 }
 /* header */
 header {
@@ -30,7 +31,7 @@ header {
   }
 }
 .logo-top {
-  width: 15vw;
+  width: 16vw;
 }
 @media (max-width: 650px) {
   .logo-top {
@@ -140,6 +141,9 @@ footer {
 .feel {
   font-size: 50px;
 }
+input {
+  font-size: 3px;
+}
 .container6 {
   background-image: url(img/background1.png);
   background-size: 100% 100%;
@@ -152,10 +156,6 @@ footer {
 .feel {
   font-size: 80px;
   padding-left: 55px;
-}
-.condition-search {
-  padding: 5px 10px 5px 10px;
-  flex: 3;
 }
 /* Doan xanh duong */
 .iphone-img {
