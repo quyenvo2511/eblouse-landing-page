@@ -14,6 +14,7 @@
   </head>
   <body>
     <div class="wrapper">
+      <div class="container6">
       <header id="header">
         <img
           src="img/logo eblouse.png"
@@ -35,11 +36,10 @@
       <!-- Đoạn chính đầu tiên -->
       <main>
         <section id="between">
-          <div class="container6">
             <h1 class="feel">Feeling mehh? Find a doctor.</h1>
-            <form action="" id="search-box">
+            <form action="" class="search-box">
               <div class="search-input">
-                <i class="search-icon fas fa-map-marker-alt"></i>
+                <i class="search-icon fa fa-search"></i>
                 <input
                   type="text"
                   class="condition-search"
@@ -47,26 +47,29 @@
                 />
               </div>
               <div class="search-input">
-                <i class="locate-icon"></i>
+                <i class="locate-icon fas fa-map-marker-alt"></i>
                 <input type="text" class="city" placeholder="your city" />
               </div>
               <div class="search-input">
+                <i class="calender-icon fa fa-calendar"></i>
                 <input
                   type="text"
                   class="date-display"
                   placeholder="Nov 09, 2020"
                 />
               </div>
-              <i class="calender-icon"></i>
+              <div class="search-input">
+                <i class="insurance-icon fa fa-address-card"></i>
               <input
                 type="text"
                 class="insurance"
                 placeholder="Insurance carrier and plan"
               />
-              <i class="insurance-icon"></i>
-              <button class="search-button">
-                <i class="search-button"></i>
+            </div>
+            <!-- <div class="search-input"> -->
+              <button class="search-button"></button><i class="search-button fa fa-search"></i>
               </button>
+            <!-- </div> -->
             </form>
           </div>
         </div>
